@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  outline-offset: none;
+  font-family: "Nunito";
+  font-size: 62.5%;
+  color: #333;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+nav {
+  /* position: fixed; */
+  width: 120rem;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999999999999999;
+}
+.nav {
+  width: 100vw;
+  position: fixed;
+  z-index: 9999999999999999;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+nav ul li {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+nav ul li:hover {
+  color: #ffffff70;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #333; */
+  background-image: url("./hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#product {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15rem;
+  /* background-color: #333; */
+  /* background-image: url("./hero.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#catalogue {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15rem;
+  /* background-color: #333; */
+  /* background-image: url("./hero.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15rem;
+  /* background-color: #333; */
+  /* background-image: url("./hero.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.searchBar {
+  width: 20rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  font-size: 2rem;
+  gap: 3rem;
+}
+.search {
+  position: relative;
+}
+.search ion-icon {
+  top: 1.16rem;
+  left: 1rem;
+  font-size: 2.5rem;
+  position: absolute;
+}
+.searchBar ion-icon {
+  font-size: 2rem;
+}
+.container {
+  display: grid;
+  /* width: 120rem;
+  margin: 10rem auto; */
+  /* grid-template-columns: 1fr 1fr; */
+}
+.content {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: #fff; */
+}
+.content h1 {
+  margin-top: 5rem;
+  text-align: left;
+  font-size: 7rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 7rem;
+}
+.content p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.line {
+  width: 40rem;
+  height: 0.2rem;
+  background-color: #fff;
+  margin-top: 4rem;
+}
+.line2 {
+  width: 80rem;
+  height: 0.2rem;
+  background-color: #fff;
+  margin-top: 4rem;
+}
+#product,
+#catalogue,
+#contact {
+  background-color: #333 !important;
+}
+#product p {
+  width: 60rem;
+  font-size: 2.2rem;
+
+  color: #ffffff99;
+}
+#product h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+
+  font-weight: 500;
+}
+#catalogue p {
+  width: 60rem;
+  font-size: 2.2rem;
+
+  color: #ffffff99;
+}
+#catalogue h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+
+  font-weight: 500;
+}
+#product {
+  position: relative;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+#product img {
+  position: absolute;
+  right: 0;
+  top: 25rem;
+  width: 60rem;
+}
+#catalogue {
+  /* width: 120rem;
+  margin: 0 auto; */
+  display: flex;
+}
+.imgs {
+  margin-left: 10rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* grid-template-columns: 1fr 1fr; */
+  /* gap: 5rem; */
+}
+.img img {
+  width: 30rem;
+}
+.img {
+  display: flex;
+  gap: 5rem;
+}
+.c1 {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+}
+#contact img {
+  position: absolute;
+  width: 80rem;
+  right: 0;
+  top: 15rem;
+}
+#contact {
+  position: relative;
+}
+.links {
+  margin-top: 25rem;
+  display: flex;
+  gap: 10rem;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.address p {
+  font-size: 2rem;
+}
+.address h2 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+@media screen and (max-width: 50rem) {
+  h1 {
+    display: none;
+  }
+}
